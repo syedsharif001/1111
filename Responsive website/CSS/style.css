@@ -1,0 +1,290 @@
+/* CSS Reset */
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+/* CSS Variables */
+:root {
+    /* --navbar-height: 29px */
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 11.1em ;
+    width: 379.8em;
+    z-index: -1;
+    opacity: 0.;
+}
+/* Navigation Bar: Logo and Image  */
+#logo {
+    /* margin: rem 0rem; */
+}
+
+#logo img {
+    width: 11em;
+    height: 10em;
+    border-radius: 100em;
+    margin: 0.5em 2em;
+}
+
+
+/* Navigation Bar: List Styling */
+/* #navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+} */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 0.7em;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 0.4em 1em;
+    /* border-radius: 20; */
+    text-decoration: none;
+    /* margin: 25px; */
+    font-size: 7em;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 45em 51em;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    height: 95em;
+    width: 379.9em;
+    z-index: -2;
+    opacity: 0.89
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 4.5em;
+    padding: 2em;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 13em;
+    padding: 0.1em;
+
+
+}
+
+
+/* Services section */
+.services-container h1 {
+    color: rgb(0, 0, 0);
+    font-size: 15em;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    padding: 0em;
+    margin: 0em ;
+}
+
+#services {
+    padding: 0em 0em;
+    margin: -2em 0em;
+    display: flex;
+}
+
+#services .box {
+    border: 0.1em solid brown;
+    background-color: rgb(248, 243, 237);
+    margin: 1em 0.5em;
+    padding: 1em 2em;
+    border-radius: 1em;
+    /* display: block; */
+    font-size: 4.5em;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    
+}
+
+#services .box img {
+    height: 8em;
+    display: block;
+    margin: auto;
+}
+
+.services-container {
+    padding: 0em 0em ;
+    margin: 1em 0em;
+}
+    
+/* Clients Section */
+#client-section {
+    height: 2em;
+    padding: 4em;
+    margin: -4em;
+    position: relative;
+}
+
+#client-section::before {
+    content: "";
+    background: url('../bg2.jpg');
+    position: absolute;
+    width: 378.8em;
+    height: 65em;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+#client-section h1 {
+    padding: 0em 1em;
+    margin: 0em 0em;
+    font-size: 15em;
+    font-family: 'Space Grotesk', sans-serif;
+    justify-content: center;
+    display: flex;
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#clients img {
+    height: 20em;
+    padding: 10em 30em;
+    margin: 0em 0em;
+}
+
+/* Contact section */
+#contact {
+    position: relative;
+    height: 42em;
+    margin: 78em 0em;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url('../contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+    width: 380em;
+    height: 120em;
+}
+
+#contact h1 {
+    font-size: 14.5em;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280em;
+}
+
+#contact-box input {
+    font-size: 4em;
+    width: 40em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+#contact-box textarea {
+    width: 95em;
+    padding: 0.9em;
+    font-size: 2.06em;
+    border-radius: 1em;
+    height: 20em;
+}
+
+#contact-box form {
+    width: 70em;
+    height: 4em;
+    padding: 10em;
+}
+
+#contact-box label {
+    font-size: 5em;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 0.5em 80em;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Utility Classess */
+#primary .h-primary center {
+    font-size: 77em;
+    padding: 152em 488em;
+
+}
+
+.box .h-seondary center {
+    font-size: 1em;
+    padding: 12em;
+}
+
+.btn {
+    margin: 1em;
+    border: 0.1em solid white;
+    background-color: rgb(255, 187, 0);
+    padding: 0.3em 0.5em;
+    font-size: 4em;
+    border-radius: 0.8em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(232, 151, 0);
+}

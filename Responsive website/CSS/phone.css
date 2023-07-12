@@ -1,0 +1,33 @@
+/* Navigation */
+
+/* Home section */
+#home{
+
+}
+
+/* Services section */
+#services{
+flex-direction: column;
+}
+#services h2{
+font-size: 12px ;
+}
+#services p{
+font-size: 23px ;
+}
+#services .box{
+height: 20px ;
+width: 23px;
+}
+
+/* Client section */
+
+
+
+/* Contact us section */
+
+
+
+/* Footer section */
+
+
